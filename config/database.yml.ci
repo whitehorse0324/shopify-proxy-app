@@ -1,0 +1,9 @@
+test:
+  adapter:  postgresql
+  host:     postgres
+  timeout:  5000
+  encoding: unicode
+  database: test_db
+  pool:     5
+  username: runner
+  password: password

@@ -1,0 +1,77 @@
+image: ruby:2.6.5
+
+stages:
+  - git_check
+  - lint
+  - test
+  - deployment
+
+variables:
+  POSTGRES_DB: test_db
+  POSTGRES_USER: runner
+  POSTGRES_PASSWORD: password
+
+cache:
+  key:
+    files:
+      - Gemfile.lock
+  paths:
+    - vendor/ruby/
+
+before_script:
+  - ruby -v
+  - which ruby
+  - gem install bundler --no-document
+  - bundle install --jobs $(nproc) --retry 3 --path=vendor/ruby
+
+.deploy_script: &deploy_script
+    - find ./scripts -type f -exec chmod +x {} +
+    - ./scripts/code-deploy.sh
+
+Git checks:
+  type: git_check
+  image: alpine:latest
+  before_script:
+    - apk update && apk upgrade && apk add --no-cache bash git ncurses
+  services: []
+  cache: {}
+  script:
+    - find ./scripts -type f -exec chmod +x {} +
+    - ./scripts/git-branch.sh
+    - ./scripts/git-email.sh
+    - ./scripts/git-message.sh
+  except:
+    - master
+    - production
+
+Ruby lint:
+  type: lint
+  script: bundle exec rubocop
+
+Ruby tests:
+  type: test
+  services:
+    - postgres:12.2-alpine
+    - redis:alpine
+  script:
+    - cp config/database.yml.ci config/database.yml
+    - bundle exec rake db:migrate RAILS_ENV=test
+    - bundle exec rspec
+
+Deploy staging:
+  type: deployment
+  script: *deploy_script
+  environment:
+    name: staging
+  when: manual
+  only:
+    - master
+
+Deploy production:
+  type: deployment
+  script: *deploy_script
+  environment:
+    name: production
+  when: manual
+  only:
+    - production
