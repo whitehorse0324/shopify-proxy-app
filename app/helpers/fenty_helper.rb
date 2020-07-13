@@ -1,0 +1,2 @@
+module FentyHelper
+end
