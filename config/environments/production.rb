@@ -1,5 +1,6 @@
 Rails.application.configure do
-  config.hosts = (config.hosts rescue []) << 'fsfbseoprototype.com'
+  # config.hosts = (config.hosts rescue []) << 'fsfbseoprototype.com'
+  config.hosts.clear
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

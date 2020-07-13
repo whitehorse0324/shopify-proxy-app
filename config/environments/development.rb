@@ -1,6 +1,7 @@
 Rails.application.configure do
   # config.hosts = (config.hosts rescue []) << /\h+.ngrok.io/
-  config.hosts = (config.hosts rescue []) << 'half-helix-yong.ngrok.io'
+  # config.hosts = (config.hosts rescue []) << 'half-helix-yong.ngrok.io'
+  config.hosts.clear
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
