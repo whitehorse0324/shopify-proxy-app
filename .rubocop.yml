@@ -6,7 +6,7 @@ AllCops:
   Exclude:
     - 'db/**/*'
     - 'config/**/*'
-    - 'bin/*'
+    - 'bin/**/*'
     - '**/Gemfile'
     - '**/Rakefile'
     - 'vendor/**/*'
@@ -14,7 +14,3 @@ AllCops:
     - '**/spec/**/*'
     - '**/docs/**/*'
     - 'builds/**/*'
-    # Additional exclude files by rubocop-rails_config
-    - 'bin/**/*'
-    - 'config/**/*'
-    - 'db/**/*'
