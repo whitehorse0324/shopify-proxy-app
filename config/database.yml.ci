@@ -17,3 +17,13 @@ development:
   pool:     5
   username: jinyong
   password: 
+
+test:
+  adapter:  postgresql
+  host:     ec2-50-19-26-235.compute-1.amazonaws.com
+  timeout:  5000
+  encoding: unicode
+  database: d8d0r9ngm3k90n
+  pool:     5
+  username: ualktljfsgkglj
+  password: 61895f83e076aed53531cb694da471d72f61acbe3becce666e9252aaf5330531

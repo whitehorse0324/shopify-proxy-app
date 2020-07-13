@@ -18,4 +18,4 @@ test:
 
 production:
   <<: *default
-  database: shopify_app_stater_production
+  database: d8d0r9ngm3k90n
