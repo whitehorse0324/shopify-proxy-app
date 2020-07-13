@@ -37,6 +37,7 @@ group :development, :test do
   gem 'rubocop', '~> 0.82.0', require: false
   gem 'rubocop-shopify', require: false
   gem 'rspec-rails', '~> 4.0.0'
+  gem 'dotenv-rails'
 end
 
 group :development do

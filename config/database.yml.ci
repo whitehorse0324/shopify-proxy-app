@@ -7,3 +7,13 @@ test:
   pool:     5
   username: runner
   password: password
+
+development:
+  adapter:  postgresql
+  host:     postgres
+  timeout:  5000
+  encoding: unicode
+  database: fenty_seo_prototype
+  pool:     5
+  username: jinyong
+  password: 
