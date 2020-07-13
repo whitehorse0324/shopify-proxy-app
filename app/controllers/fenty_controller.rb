@@ -2,7 +2,7 @@
 
 class FentyController < ApplicationController
   def index
-    sitemapText = 'I think that there should be the content of sitemap.xml here.'
-    render plain: (sitemapText)
+    sitemap_text = 'I think that there should be the content of sitemap.xml here.'
+    render plain: sitemap_text
   end
 end
