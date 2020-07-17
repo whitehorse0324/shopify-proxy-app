@@ -5,6 +5,8 @@ ruby '2.6.5'
 
 # Shopify app engine
 gem 'shopify_app', '~> 13.0.1'
+# ShopifyApi
+gem 'shopify_api'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -12,6 +14,9 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+# Use Sitemap Generater
+gem 'xml-sitemap'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
