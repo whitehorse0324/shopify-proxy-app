@@ -1,72 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fsfbseoprototype.com/</loc>
-    <lastmod>2020-07-21T20:04:22Z</lastmod>
+    <loc>https://branded.fsfbseoprototype.com/</loc>
+    <lastmod>2020-07-21T19:11:27Z</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/products/caps</loc>
-    <lastmod>2020-07-21T11:36:46-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/products/gloves</loc>
-    <lastmod>2020-07-21T11:36:08-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/products/main-product</loc>
-    <lastmod>2020-07-21T11:36:53-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/products/shirt</loc>
-    <lastmod>2020-07-20T14:45:02-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/collections/frontpage</loc>
-    <lastmod>2020-06-30T03:51:59-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/collections/test1</loc>
-    <lastmod>2020-07-21T11:36:53-04:00</lastmod>
-    <changefreq>hourly</changefreq>
-  </url>
-  <url>
-    <loc>https://fsfbseoprototype.com/collections/test2</loc>
+    <loc>https://branded.fsfbseoprototype.com/products/branded-product</loc>
     <lastmod>2020-07-21T11:36:37-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/pages/fs-page</loc>
+    <loc>https://branded.fsfbseoprototype.com/products/pants</loc>
+    <lastmod>2020-07-20T14:43:39-04:00</lastmod>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://branded.fsfbseoprototype.com/collections/frontpage</loc>
+    <lastmod>2020-06-30T03:51:59-04:00</lastmod>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://branded.fsfbseoprototype.com/collections/test1</loc>
+    <lastmod>2020-07-21T11:36:53-04:00</lastmod>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://branded.fsfbseoprototype.com/collections/test2</loc>
+    <lastmod>2020-07-21T11:36:37-04:00</lastmod>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://branded.fsfbseoprototype.com/pages/fs-page</loc>
     <lastmod>2020-07-07T10:40:10-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/pages/fs-test</loc>
+    <loc>https://branded.fsfbseoprototype.com/pages/fs-test</loc>
     <lastmod>2020-07-07T10:39:16-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/blogs/features</loc>
+    <loc>https://branded.fsfbseoprototype.com/blogs/features</loc>
     <lastmod>2020-07-20T12:07:49-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/blogs/news</loc>
+    <loc>https://branded.fsfbseoprototype.com/blogs/news</loc>
     <lastmod>2020-07-20T12:04:39-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/articles/article-2</loc>
+    <loc>https://branded.fsfbseoprototype.com/articles/article-2</loc>
     <lastmod>2020-07-20T12:07:49-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
   <url>
-    <loc>https://fsfbseoprototype.com/articles/article-1</loc>
+    <loc>https://branded.fsfbseoprototype.com/articles/article-1</loc>
     <lastmod>2020-07-20T12:04:39-04:00</lastmod>
     <changefreq>hourly</changefreq>
   </url>
